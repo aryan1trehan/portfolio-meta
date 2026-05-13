@@ -13,7 +13,7 @@ const industries = [
 
 export default function Industries() {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[#545677]/10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-[#4A8DB5]/10">
       {industries.map((ind, i) => (
         <motion.div
           key={i}
@@ -21,12 +21,12 @@ export default function Industries() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.5, delay: i * 0.08 }}
-          className="group bg-[#03254E] p-8 hover:border hover:border-[#545677]/30 transition-all duration-200 cursor-default"
+          className="group bg-[#0D324D] p-8 hover:border hover:border-[#4A8DB5]/30 transition-all duration-200 cursor-default"
         >
           <span className="text-3xl mb-5 block" aria-hidden="true">{ind.icon}</span>
-          <h3 className="font-georgia text-[#E2E8F4] text-xl font-normal mb-2">{ind.name}</h3>
-          <p className="font-inter text-xs text-[#E2E8F4]/40 leading-relaxed mb-4">{ind.desc}</p>
-          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#545677] border border-[#545677]/30 px-3 py-1">
+          <h3 className="font-georgia text-[#FFFFFF] text-xl font-normal mb-2">{ind.name}</h3>
+          <p className="font-inter text-xs text-[#FFFFFF]/40 leading-relaxed mb-4">{ind.desc}</p>
+          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#4A8DB5] border border-[#4A8DB5]/30 px-3 py-1">
             {ind.badge}
           </span>
         </motion.div>
