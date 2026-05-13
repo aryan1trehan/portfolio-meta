@@ -51,8 +51,8 @@ export default function AdTypes() {
               onClick={() => setActive(i)}
               className={`font-inter text-xs uppercase tracking-widest px-5 py-2.5 transition-all duration-200 ${
                 active === i
-                  ? "bg-[#B8960C] text-black"
-                  : "border border-[#0A0A0A]/20 text-[#555] hover:border-[#B8960C]/40 hover:text-[#B8960C]"
+                  ? "bg-[#D4AF37] text-black"
+                  : "border border-white/20 text-[#F5F5F7]/60 hover:border-[#D4AF37]/40 hover:text-[#D4AF37]"
               }`}
             >
               {tab.label}
@@ -69,13 +69,13 @@ export default function AdTypes() {
             className="grid grid-cols-2 gap-12 items-start"
           >
             <div>
-              <h3 className="font-georgia text-2xl text-[#0A0A0A] mb-3">{tabs[active].headline}</h3>
-              <p className="font-inter text-sm text-[#555] leading-relaxed">{tabs[active].body}</p>
+              <h3 className="font-georgia text-2xl text-[#F5F5F7] mb-3">{tabs[active].headline}</h3>
+              <p className="font-inter text-sm text-[#F5F5F7]/60 leading-relaxed">{tabs[active].body}</p>
             </div>
             <ul className="flex flex-col gap-3">
               {tabs[active].bullets.map((b, i) => (
-                <li key={i} className="flex items-start gap-3 font-inter text-sm text-[#0A0A0A]">
-                  <span className="text-[#B8960C] mt-1 shrink-0">—</span>
+                <li key={i} className="flex items-start gap-3 font-inter text-sm text-[#F5F5F7]">
+                  <span className="text-[#D4AF37] mt-1 shrink-0">—</span>
                   {b}
                 </li>
               ))}
@@ -87,13 +87,13 @@ export default function AdTypes() {
       {/* Mobile accordion */}
       <div className="md:hidden flex flex-col gap-2">
         {tabs.map((tab, i) => (
-          <div key={i} className="border border-black/10">
+          <div key={i} className="border border-white/10">
             <button
               onClick={() => setOpenAccordion(openAccordion === i ? null : i)}
-              className="w-full flex items-center justify-between px-5 py-4 font-inter text-sm font-semibold text-[#0A0A0A] uppercase tracking-widest"
+              className="w-full flex items-center justify-between px-5 py-4 font-inter text-sm font-semibold text-[#F5F5F7] uppercase tracking-widest"
             >
               {tab.label}
-              <span className="text-[#B8960C] text-lg">{openAccordion === i ? "−" : "+"}</span>
+              <span className="text-[#D4AF37] text-lg">{openAccordion === i ? "−" : "+"}</span>
             </button>
             <AnimatePresence>
               {openAccordion === i && (
@@ -105,12 +105,12 @@ export default function AdTypes() {
                   className="overflow-hidden"
                 >
                   <div className="px-5 pb-5">
-                    <p className="font-georgia text-lg text-[#0A0A0A] mb-2">{tab.headline}</p>
-                    <p className="font-inter text-sm text-[#555] mb-4 leading-relaxed">{tab.body}</p>
+                    <p className="font-georgia text-lg text-[#F5F5F7] mb-2">{tab.headline}</p>
+                    <p className="font-inter text-sm text-[#F5F5F7]/60 mb-4 leading-relaxed">{tab.body}</p>
                     <ul className="flex flex-col gap-2">
                       {tab.bullets.map((b, j) => (
-                        <li key={j} className="flex items-start gap-3 font-inter text-sm text-[#0A0A0A]">
-                          <span className="text-[#B8960C] shrink-0">—</span>
+                        <li key={j} className="flex items-start gap-3 font-inter text-sm text-[#F5F5F7]">
+                          <span className="text-[#D4AF37] shrink-0">—</span>
                           {b}
                         </li>
                       ))}

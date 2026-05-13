@@ -51,15 +51,15 @@ export default function CaseStudies() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.5, delay: i * 0.1 }}
-          className="group bg-white border-t-2 border-t-[#B8960C]/30 hover:border-t-[#B8960C] p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-200"
+          className="group bg-[#0A0A0A] border-t-2 border-t-[#D4AF37]/30 hover:border-t-[#D4AF37] p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-200"
         >
-          <h3 className="font-georgia text-[#0A0A0A] text-2xl font-normal mb-2">{c.brand}</h3>
-          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#888] bg-[#F5F5F5] px-3 py-1 mb-4">
+          <h3 className="font-georgia text-[#F5F5F7] text-2xl font-normal mb-2">{c.brand}</h3>
+          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#F5F5F7]/40 bg-[#1A1A1B] px-3 py-1 mb-4">
             {c.tag}
           </span>
-          <p className="font-georgia text-[#B8960C] text-3xl font-normal mb-4">{c.result}</p>
-          <p className="font-inter text-sm text-[#555] leading-relaxed mb-6">{c.body}</p>
-          <a href="#contact" className="font-inter text-xs text-[#B8960C] hover:text-[#D4AF37] uppercase tracking-widest transition-colors duration-200">
+          <p className="font-georgia text-[#D4AF37] text-3xl font-normal mb-4">{c.result}</p>
+          <p className="font-inter text-sm text-[#F5F5F7]/60 leading-relaxed mb-6">{c.body}</p>
+          <a href="#contact" className="font-inter text-xs text-[#D4AF37] hover:text-[#E8C84A] uppercase tracking-widest transition-colors duration-200">
             Full Case Study →
           </a>
         </motion.article>

@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --gold: #B8960C;
-  --gold-hover: #D4AF37;
+  --gold: #D4AF37;
+  --gold-hover: #E8C84A;
   --black: #0A0A0A;
+  --section-secondary: #1A1A1B;
   --card-dark: #111111;
-  --cream: #FAF7F0;
-  --off-white: #F5F5F5;
-  --text-muted-dark: #CCCCCC;
-  --text-muted-light: #555555;
+  --off-white: #F5F5F7;
+  --text-muted: rgba(245, 245, 247, 0.6);
+  --text-subtle: rgba(245, 245, 247, 0.4);
 }
 
 @keyframes spotlight {
