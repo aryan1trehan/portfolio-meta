@@ -7,8 +7,8 @@ gsap.registerPlugin(ScrollTrigger);
 function cx(...parts: Array<string | undefined | false | null>): string {
   return parts.filter(Boolean).join(' ');
 }
-export const FlowSection: React.FC<{ className?: string; style?: React.CSSProperties; children: React.ReactNode; 'aria-label'?: string }> = ({ className, style = {}, children, 'aria-label': ariaLabel }) => (
-  <section data-flow-section aria-label={ariaLabel} className={cx('relative min-h-screen w-full overflow-hidden', className)}>
+export const FlowSection: React.FC<{ className?: string; style?: React.CSSProperties; children: React.ReactNode; 'aria-label'?: string; id?: string }> = ({ className, style = {}, children, 'aria-label': ariaLabel, id }) => (
+  <section data-flow-section aria-label={ariaLabel} id={id} className={cx('relative min-h-screen w-full overflow-hidden', className)}>
     <div data-flow-inner className={cx('flow-art-container relative flex min-h-screen w-full flex-col justify-between gap-6 px-[4vw] pt-[clamp(2rem,8vw,4vw)] pb-[4vw] will-change-transform')} style={{ transformOrigin: 'bottom left', ...style }}>
       {children}
     </div>
