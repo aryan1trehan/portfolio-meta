@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --accent: #BDFF00;
-  --accent-hover: #CCFF00;
-  --black: #050505;
-  --section-secondary: #0D0D0D;
-  --border: #222222;
-  --off-white: #EDEDED;
-  --text-muted: rgba(237, 237, 237, 0.6);
-  --text-subtle: rgba(237, 237, 237, 0.4);
+  --accent: #A3B18A;
+  --accent-hover: #B8C9A0;
+  --black: #121212;
+  --section-secondary: #1B2621;
+  --border: #2A3A30;
+  --off-white: #E9EDC9;
+  --text-muted: rgba(233, 237, 201, 0.6);
+  --text-subtle: rgba(233, 237, 201, 0.4);
 }
 
 @keyframes spotlight {

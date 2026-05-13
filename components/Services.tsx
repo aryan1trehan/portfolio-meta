@@ -37,7 +37,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div id="services" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#BDFF00]/10">
+    <div id="services" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-[#A3B18A]/10">
       {services.map((s, i) => (
         <motion.div
           key={i}
@@ -45,11 +45,11 @@ export default function Services() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.5, delay: i * 0.1 }}
-          className="group bg-[#0D0D0D] p-8 hover:-translate-y-1 transition-transform duration-200 border-t-2 border-t-[#BDFF00]/30 hover:border-t-[#BDFF00] cursor-default"
+          className="group bg-[#1B2621] p-8 hover:-translate-y-1 transition-transform duration-200 border-t-2 border-t-[#A3B18A]/30 hover:border-t-[#A3B18A] cursor-default"
         >
-          <p className="font-georgia text-[2.5rem] text-[#BDFF00] leading-none mb-5">{s.n}</p>
-          <h3 className="font-inter text-sm font-semibold text-[#EDEDED] uppercase tracking-widest mb-3">{s.title}</h3>
-          <p className="font-inter text-xs text-[#EDEDED]/40 leading-relaxed">{s.desc}</p>
+          <p className="font-georgia text-[2.5rem] text-[#A3B18A] leading-none mb-5">{s.n}</p>
+          <h3 className="font-inter text-sm font-semibold text-[#E9EDC9] uppercase tracking-widest mb-3">{s.title}</h3>
+          <p className="font-inter text-xs text-[#E9EDC9]/40 leading-relaxed">{s.desc}</p>
         </motion.div>
       ))}
     </div>

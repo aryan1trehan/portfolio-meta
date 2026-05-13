@@ -26,23 +26,23 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? "bg-[#050505]/95 backdrop-blur-md border-b border-[#BDFF00]/10" : ""
+        scrolled ? "bg-[#121212]/95 backdrop-blur-md border-b border-[#A3B18A]/10" : ""
       }`}
     >
       <nav className="max-w-[1200px] mx-auto px-6 py-5 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3 group">
-          <div className="w-8 h-8 bg-[#BDFF00] flex items-center justify-center">
+          <div className="w-8 h-8 bg-[#A3B18A] flex items-center justify-center">
             <span className="font-georgia text-black font-bold text-sm">E</span>
           </div>
-          <span className="font-georgia text-[#EDEDED] font-normal text-xl tracking-tight">
-            Enhancce<span className="text-[#BDFF00]">e</span>
+          <span className="font-georgia text-[#E9EDC9] font-normal text-xl tracking-tight">
+            Enhancce<span className="text-[#A3B18A]">e</span>
           </span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10">
           {navLinks.map((link) => (
             <li key={link.label}>
-              <a href={link.href} className="font-inter text-[#EDEDED]/50 hover:text-[#EDEDED] text-sm tracking-wide transition-colors duration-200">
+              <a href={link.href} className="font-inter text-[#E9EDC9]/50 hover:text-[#E9EDC9] text-sm tracking-wide transition-colors duration-200">
                 {link.label}
               </a>
             </li>
@@ -50,15 +50,15 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden md:block">
-          <a href="#contact" className="font-inter px-5 py-2.5 bg-[#BDFF00] hover:bg-[#CCFF00] text-black text-sm font-semibold transition-all duration-200">
+          <a href="#contact" className="font-inter px-5 py-2.5 bg-[#A3B18A] hover:bg-[#B8C9A0] text-black text-sm font-semibold transition-all duration-200">
             Book a Free Audit
           </a>
         </div>
 
         <button className="md:hidden flex flex-col gap-1.5 p-1" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
-          <span className={`block h-0.5 w-6 bg-[#EDEDED] transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
-          <span className={`block h-0.5 w-6 bg-[#EDEDED] transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
-          <span className={`block h-0.5 w-6 bg-[#EDEDED] transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
+          <span className={`block h-0.5 w-6 bg-[#E9EDC9] transition-all duration-300 ${menuOpen ? "rotate-45 translate-y-2" : ""}`} />
+          <span className={`block h-0.5 w-6 bg-[#E9EDC9] transition-all duration-300 ${menuOpen ? "opacity-0" : ""}`} />
+          <span className={`block h-0.5 w-6 bg-[#E9EDC9] transition-all duration-300 ${menuOpen ? "-rotate-45 -translate-y-2" : ""}`} />
         </button>
       </nav>
 
@@ -68,18 +68,18 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-[#050505]/98 backdrop-blur-md border-t border-[#BDFF00]/10"
+            className="md:hidden bg-[#121212]/98 backdrop-blur-md border-t border-[#A3B18A]/10"
           >
             <ul className="px-6 py-6 flex flex-col gap-4">
               {navLinks.map((link) => (
                 <li key={link.label}>
-                  <a href={link.href} onClick={() => setMenuOpen(false)} className="font-inter text-[#EDEDED]/70 hover:text-[#EDEDED] text-base transition-colors">
+                  <a href={link.href} onClick={() => setMenuOpen(false)} className="font-inter text-[#E9EDC9]/70 hover:text-[#E9EDC9] text-base transition-colors">
                     {link.label}
                   </a>
                 </li>
               ))}
               <li>
-                <a href="#contact" onClick={() => setMenuOpen(false)} className="inline-block mt-2 px-5 py-2.5 bg-[#BDFF00] text-black font-inter text-sm font-semibold">
+                <a href="#contact" onClick={() => setMenuOpen(false)} className="inline-block mt-2 px-5 py-2.5 bg-[#A3B18A] text-black font-inter text-sm font-semibold">
                   Book a Free Audit
                 </a>
               </li>

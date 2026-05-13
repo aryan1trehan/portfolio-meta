@@ -51,7 +51,7 @@ export default function Results() {
   return (
     <div id="results">
       {/* Primary stats */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-[#BDFF00]/10 mb-px">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-[#A3B18A]/10 mb-px">
         {primaryStats.map((s, i) => (
           <motion.div
             key={i}
@@ -59,18 +59,18 @@ export default function Results() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
-            className="bg-[#0D0D0D] p-8"
+            className="bg-[#1B2621] p-8"
           >
-            <p className="font-georgia text-[clamp(2.5rem,5vw,4rem)] text-[#BDFF00] leading-none mb-2">
+            <p className="font-georgia text-[clamp(2.5rem,5vw,4rem)] text-[#A3B18A] leading-none mb-2">
               {s.raw ? s.value : <CountUp end={s.value as number} suffix={s.suffix} />}
             </p>
-            <p className="font-inter text-xs text-[#EDEDED]/60 uppercase tracking-widest">{s.label}</p>
+            <p className="font-inter text-xs text-[#E9EDC9]/60 uppercase tracking-widest">{s.label}</p>
           </motion.div>
         ))}
       </div>
 
       {/* Secondary stats */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-[#BDFF00]/10 mb-12">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-px bg-[#A3B18A]/10 mb-12">
         {secondaryStats.map((s, i) => (
           <motion.div
             key={i}
@@ -78,12 +78,12 @@ export default function Results() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: i * 0.1 + 0.2 }}
-            className="bg-[#050505] p-6"
+            className="bg-[#121212] p-6"
           >
-            <p className="font-georgia text-[clamp(2rem,4vw,3rem)] text-[#EDEDED] leading-none mb-1">
+            <p className="font-georgia text-[clamp(2rem,4vw,3rem)] text-[#E9EDC9] leading-none mb-1">
               <CountUp end={s.value as number} suffix={s.suffix} />
             </p>
-            <p className="font-inter text-xs text-[#EDEDED]/40 uppercase tracking-widest">{s.label}</p>
+            <p className="font-inter text-xs text-[#E9EDC9]/40 uppercase tracking-widest">{s.label}</p>
           </motion.div>
         ))}
       </div>
@@ -96,10 +96,10 @@ export default function Results() {
         transition={{ duration: 0.8 }}
         className="text-center max-w-3xl mx-auto"
       >
-        <p className="font-georgia italic text-[clamp(1.2rem,2.5vw,1.8rem)] text-[#EDEDED] leading-relaxed">
+        <p className="font-georgia italic text-[clamp(1.2rem,2.5vw,1.8rem)] text-[#E9EDC9] leading-relaxed">
           The brands that came for one month
           <br />
-          <span className="text-[#BDFF00]">stayed for years. The returns made the decision.</span>
+          <span className="text-[#A3B18A]">stayed for years. The returns made the decision.</span>
         </p>
       </motion.blockquote>
     </div>
