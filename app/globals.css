@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --gold: #B8960C;
+  --gold-hover: #D4AF37;
+  --black: #0A0A0A;
+  --card-dark: #111111;
+  --cream: #FAF7F0;
+  --off-white: #F5F5F5;
+  --text-muted-dark: #CCCCCC;
+  --text-muted-light: #555555;
+}
+
+@keyframes spotlight {
+  0% { opacity: 0; transform: translate(-72%, -62%) scale(0.5); }
+  100% { opacity: 1; transform: translate(-50%, -40%) scale(1); }
+}
+.animate-spotlight {
+  animation: spotlight 2s ease 0.75s 1 forwards;
+}
+
+@keyframes ticker {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-ticker {
+  animation: ticker 30s linear infinite;
+}
+
+@keyframes pulse-cta {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+.animate-pulse-cta {
+  animation: pulse-cta 4s ease-in-out infinite;
+}
+
+.font-georgia {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), Arial, sans-serif;
+}
