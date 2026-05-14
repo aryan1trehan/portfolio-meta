@@ -52,7 +52,7 @@ export default function AdTypes() {
               className={`font-inter text-xs uppercase tracking-widest px-5 py-2.5 transition-all duration-200 ${
                 active === i
                   ? "bg-[#6D001A] text-white"
-                  : "border border-[#3D0010] text-[#FFFFFF]/60 hover:border-[#6D001A]/40 hover:text-[#6D001A]"
+                  : "border border-[#3D0010] text-[#FFFFFF]/60 hover:border-[#6D001A]/40 hover:text-[#FFFFFF]"
               }`}
             >
               {tab.label}
@@ -75,7 +75,7 @@ export default function AdTypes() {
             <ul className="flex flex-col gap-3">
               {tabs[active].bullets.map((b, i) => (
                 <li key={i} className="flex items-start gap-3 font-inter text-sm text-[#FFFFFF]">
-                  <span className="text-[#6D001A] mt-1 shrink-0">—</span>
+                  <span className="text-[#FFFFFF] mt-1 shrink-0">—</span>
                   {b}
                 </li>
               ))}
@@ -93,7 +93,7 @@ export default function AdTypes() {
               className="w-full flex items-center justify-between px-5 py-4 font-inter text-sm font-semibold text-[#FFFFFF] uppercase tracking-widest"
             >
               {tab.label}
-              <span className="text-[#6D001A] text-lg">{openAccordion === i ? "−" : "+"}</span>
+              <span className="text-[#FFFFFF] text-lg">{openAccordion === i ? "−" : "+"}</span>
             </button>
             <AnimatePresence>
               {openAccordion === i && (
@@ -110,7 +110,7 @@ export default function AdTypes() {
                     <ul className="flex flex-col gap-2">
                       {tab.bullets.map((b, j) => (
                         <li key={j} className="flex items-start gap-3 font-inter text-sm text-[#FFFFFF]">
-                          <span className="text-[#6D001A] shrink-0">—</span>
+                          <span className="text-[#FFFFFF] shrink-0">—</span>
                           {b}
                         </li>
                       ))}

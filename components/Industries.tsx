@@ -21,12 +21,12 @@ export default function Industries() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
           transition={{ duration: 0.5, delay: i * 0.08 }}
-          className="group bg-[#6D001A] p-8 hover:border hover:border-[#6D001A]/30 transition-all duration-200 cursor-default"
+          className="group bg-[#6D001A] p-8 hover:border hover:border-[#FFFFFF]/30 transition-all duration-200 cursor-default"
         >
           <span className="text-3xl mb-5 block" aria-hidden="true">{ind.icon}</span>
           <h3 className="font-georgia text-[#FFFFFF] text-xl font-normal mb-2">{ind.name}</h3>
           <p className="font-inter text-xs text-[#FFFFFF]/40 leading-relaxed mb-4">{ind.desc}</p>
-          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#6D001A] border border-[#6D001A]/30 px-3 py-1">
+          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#FFFFFF] border border-[#FFFFFF]/30 px-3 py-1">
             {ind.badge}
           </span>
         </motion.div>

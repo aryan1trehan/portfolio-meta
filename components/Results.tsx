@@ -61,7 +61,7 @@ export default function Results() {
             transition={{ duration: 0.5, delay: i * 0.1 }}
             className="bg-[#6D001A] p-8"
           >
-            <p className="font-georgia text-[clamp(2.5rem,5vw,4rem)] text-[#6D001A] leading-none mb-2">
+            <p className="font-georgia text-[clamp(2.5rem,5vw,4rem)] text-[#FFFFFF] leading-none mb-2">
               {s.raw ? s.value : <CountUp end={s.value as number} suffix={s.suffix} />}
             </p>
             <p className="font-inter text-xs text-[#FFFFFF]/60 uppercase tracking-widest">{s.label}</p>
@@ -99,7 +99,7 @@ export default function Results() {
         <p className="font-georgia italic text-[clamp(1.2rem,2.5vw,1.8rem)] text-[#FFFFFF] leading-relaxed">
           The brands that came for one month
           <br />
-          <span className="text-[#6D001A]">stayed for years. The returns made the decision.</span>
+          <span className="text-[#FFFFFF]">stayed for years. The returns made the decision.</span>
         </p>
       </motion.blockquote>
     </div>

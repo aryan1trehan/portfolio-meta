@@ -19,7 +19,7 @@ export default function CtaFooter() {
           >
             <h2 className="font-georgia text-[clamp(2.5rem,6vw,4.5rem)] font-normal text-[#FFFFFF] leading-[1.1] mb-6">
               If the ROAS isn&apos;t there,<br />
-              <span className="text-[#6D001A]">we already know why.</span>
+              <span className="text-[#FFFFFF]">we already know why.</span>
             </h2>
             <p className="font-inter text-[#FFFFFF]/50 text-base mb-10">
               Let&apos;s find out what&apos;s possible for your brand.
@@ -57,7 +57,7 @@ export default function CtaFooter() {
             ))}
           </nav>
           <p className="font-inter text-xs text-[#FFFFFF]/20">
-            © 2025 Enhanccee. All rights reserved. · <span className="text-[#6D001A]/40">Built for performance.</span>
+            © 2025 Enhanccee. All rights reserved. · <span className="text-[#FFFFFF]/40">Built for performance.</span>
           </p>
         </div>
       </footer>

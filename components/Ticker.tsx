@@ -19,7 +19,7 @@ export default function Ticker() {
             {items.map((brand, i) => (
               <span key={i} className="font-georgia text-[#FFFFFF] text-sm inline-flex items-center gap-4 px-4">
                 {brand}
-                <span className="text-[#6D001A] text-xs">·</span>
+                <span className="text-[#FFFFFF]/50 text-xs">·</span>
               </span>
             ))}
           </div>

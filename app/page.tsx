@@ -30,13 +30,13 @@ export default function Home() {
         <div className="flex h-screen">
           <div className="flex-1 p-8 md:p-16 relative z-10 flex flex-col justify-center">
             {/* Eyebrow */}
-            <p className="font-inter text-xs font-semibold uppercase tracking-[0.3em] text-[#6D001A] mb-6">
+            <p className="font-inter text-xs font-semibold uppercase tracking-[0.3em] text-[#FFFFFF] mb-6">
               Performance · Precision · Global
             </p>
             {/* H1 */}
             <h1 className="font-georgia text-[clamp(2.8rem,6vw,5rem)] font-normal leading-[1.1] text-white mb-6">
               We don&apos;t run ads.<br />
-              <span className="text-[#6D001A]">We engineer growth.</span>
+              <span className="text-[#FFFFFF]">We engineer growth.</span>
             </h1>
             {/* Sub-headline */}
             <p className="font-inter text-lg text-white/60 mb-10">
@@ -79,14 +79,14 @@ export default function Home() {
 
         {/* SECTION 03 — WHO WE ARE */}
         <FlowSection aria-label="Who we are" style={{ backgroundColor: '#6D001A', color: '#FFFFFF' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">01 — Who We Are</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">01 — Who We Are</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <div className="flex flex-col lg:flex-row gap-[6vw] items-start">
             {/* Left */}
             <div className="flex-1">
               <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-[#FFFFFF] mb-[3vw]">
                 Born in Jaipur.<br />
-                <span className="text-[#6D001A]">Trusted everywhere.</span>
+                <span className="text-[#FFFFFF]">Trusted everywhere.</span>
               </h2>
               <p className="font-inter text-base leading-relaxed text-[#FFFFFF]/60 mb-4 max-w-[55ch]">
                 Enhanccee is a performance-first Meta Ads agency. Every campaign is a calculated move. Every rupee has a job.
@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             {/* Right — big stat */}
             <div className="flex-shrink-0 flex flex-col items-start lg:items-end lg:border-l lg:border-[#6D001A]/30 lg:pl-[5vw]">
-              <p className="font-georgia text-[clamp(4rem,10vw,9rem)] font-normal text-[#6D001A] leading-none">₹78Cr+</p>
+              <p className="font-georgia text-[clamp(4rem,10vw,9rem)] font-normal text-[#FFFFFF] leading-none">₹78Cr+</p>
               <p className="font-inter text-sm text-[#FFFFFF]/40 mt-2 tracking-wide">managed across 25+ brands</p>
               <p className="font-inter text-xs text-[#FFFFFF]/40 mt-1 tracking-wider">10+ industries · 7 continents</p>
             </div>
@@ -106,11 +106,11 @@ export default function Home() {
 
         {/* SECTION 04 — SERVICES */}
         <FlowSection aria-label="What we do" style={{ backgroundColor: '#000000', color: '#fff' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">02 — What We Do</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">02 — What We Do</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-white mb-3">
             Six disciplines.<br />
-            <span className="text-[#6D001A]">One outcome.</span>
+            <span className="text-[#FFFFFF]">One outcome.</span>
           </h2>
           <p className="font-inter text-sm text-white/40 mb-[4vw]">Creative. Targeting. CRO. Architecture. All of it. Under one roof.</p>
           <Services />
@@ -118,22 +118,22 @@ export default function Home() {
 
         {/* SECTION 05 — AD TYPES */}
         <FlowSection aria-label="Campaign types" style={{ backgroundColor: '#6D001A', color: '#FFFFFF' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">03 — Campaign Types</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">03 — Campaign Types</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-[#FFFFFF] mb-[3vw]">
             Every objective.<br />
-            <span className="text-[#6D001A]">Mastered.</span>
+            <span className="text-[#FFFFFF]">Mastered.</span>
           </h2>
           <AdTypes />
         </FlowSection>
 
         {/* SECTION 06 — INDUSTRIES */}
         <FlowSection aria-label="Industries" style={{ backgroundColor: '#000000', color: '#fff' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">04 — Industries</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">04 — Industries</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-white mb-3">
             Ten industries.<br />
-            <span className="text-[#6D001A]">One standard.</span>
+            <span className="text-[#FFFFFF]">One standard.</span>
           </h2>
           <p className="font-inter text-sm text-white/40 mb-[4vw]">We don&apos;t learn on your budget. We&apos;ve already been here.</p>
           <Industries />
@@ -141,11 +141,11 @@ export default function Home() {
 
         {/* SECTION 07 — RESULTS */}
         <FlowSection aria-label="The numbers" style={{ backgroundColor: '#6D001A', color: '#FFFFFF' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">05 — The Numbers</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">05 — The Numbers</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-[#FFFFFF] mb-3">
             The numbers.<br />
-            <span className="text-[#6D001A]">Unedited.</span>
+            <span className="text-[#FFFFFF]">Unedited.</span>
           </h2>
           <p className="font-inter text-sm text-[#FFFFFF]/40 mb-[4vw]">Real campaigns. Real budgets. Real returns.</p>
           <Results />
@@ -153,11 +153,11 @@ export default function Home() {
 
         {/* SECTION 08 — PROCESS */}
         <FlowSection aria-label="The process" style={{ backgroundColor: '#000000', color: '#fff' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">06 — The Process</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">06 — The Process</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-white mb-3">
             A system.<br />
-            <span className="text-[#6D001A]">Not a service.</span>
+            <span className="text-[#FFFFFF]">Not a service.</span>
           </h2>
           <p className="font-inter text-sm text-white/40 mb-[4vw]">Five steps. No assumptions. No surprises.</p>
           <div className="grid grid-cols-1 md:grid-cols-5 gap-0 relative">
@@ -171,7 +171,7 @@ export default function Home() {
               { n: '05', title: 'Scale', body: 'Winners get budget. Losers get cut. Margins protected. Results reported. No vanity. No noise.' },
             ].map((step, i) => (
               <div key={i} className="relative z-10 p-6 border border-white/5 hover:border-[#6D001A]/30 transition-colors duration-200 bg-[#000000]">
-                <p className="font-georgia text-[clamp(2.5rem,4vw,3.5rem)] text-[#6D001A] leading-none mb-4">{step.n}</p>
+                <p className="font-georgia text-[clamp(2.5rem,4vw,3.5rem)] text-[#FFFFFF] leading-none mb-4">{step.n}</p>
                 <p className="font-inter text-sm font-semibold text-white uppercase tracking-wider mb-3">{step.title}</p>
                 <p className="font-inter text-xs text-white/40 leading-relaxed">{step.body}</p>
               </div>
@@ -181,11 +181,11 @@ export default function Home() {
 
         {/* SECTION 09 — CASE STUDIES */}
         <FlowSection aria-label="Selected work" id="work" style={{ backgroundColor: '#6D001A', color: '#FFFFFF' }}>
-          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#6D001A]">07 — Selected Work</p>
+          <p className="font-inter text-xs font-semibold uppercase tracking-[0.2em] text-[#FFFFFF]">07 — Selected Work</p>
           <hr className="my-[2vw] border-t border-[#3D0010]" />
           <h2 className="font-georgia text-[clamp(3rem,8vw,7rem)] font-normal leading-[1.0] text-[#FFFFFF] mb-3">
             A few of the brands<br />
-            <span className="text-[#6D001A]">we&apos;ve built.</span>
+            <span className="text-[#FFFFFF]">we&apos;ve built.</span>
           </h2>
           <p className="font-inter text-sm text-[#FFFFFF]/40 mb-[4vw]">Every number here is real. Every result is repeatable.</p>
           <CaseStudies />

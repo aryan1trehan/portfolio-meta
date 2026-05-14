@@ -57,9 +57,9 @@ export default function CaseStudies() {
           <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#FFFFFF]/40 bg-[#6D001A] px-3 py-1 mb-4">
             {c.tag}
           </span>
-          <p className="font-georgia text-[#6D001A] text-3xl font-normal mb-4">{c.result}</p>
+          <p className="font-georgia text-[#FFFFFF] text-3xl font-normal mb-4">{c.result}</p>
           <p className="font-inter text-sm text-[#FFFFFF]/60 leading-relaxed mb-6">{c.body}</p>
-          <a href="#contact" className="font-inter text-xs text-[#6D001A] hover:text-[#8B0022] uppercase tracking-widest transition-colors duration-200">
+          <a href="#contact" className="font-inter text-xs text-[#FFFFFF] hover:text-[#FFFFFF]/80 uppercase tracking-widest transition-colors duration-200">
             Full Case Study →
           </a>
         </motion.article>

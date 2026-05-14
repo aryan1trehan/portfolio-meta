@@ -35,7 +35,7 @@ export default function Navbar() {
             <span className="font-georgia text-white font-bold text-sm">E</span>
           </div>
           <span className="font-georgia text-[#FFFFFF] font-normal text-xl tracking-tight">
-            Enhancce<span className="text-[#6D001A]">e</span>
+            Enhancce<span className="text-[#FFFFFF]">e</span>
           </span>
         </a>
 

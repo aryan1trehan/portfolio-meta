@@ -47,7 +47,7 @@ export default function Services() {
           transition={{ duration: 0.5, delay: i * 0.1 }}
           className="group bg-[#6D001A] p-8 hover:-translate-y-1 transition-transform duration-200 border-t-2 border-t-[#6D001A]/30 hover:border-t-[#6D001A] cursor-default"
         >
-          <p className="font-georgia text-[2.5rem] text-[#6D001A] leading-none mb-5">{s.n}</p>
+          <p className="font-georgia text-[2.5rem] text-[#FFFFFF] leading-none mb-5">{s.n}</p>
           <h3 className="font-inter text-sm font-semibold text-[#FFFFFF] uppercase tracking-widest mb-3">{s.title}</h3>
           <p className="font-inter text-xs text-[#FFFFFF]/40 leading-relaxed">{s.desc}</p>
         </motion.div>
