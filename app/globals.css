@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -36,9 +37,17 @@
 }
 
 .font-georgia {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: 'Cormorant Garamond', Georgia, serif;
 }
 
 .font-inter {
-  font-family: var(--font-inter), Arial, sans-serif;
+  font-family: 'Josefin Sans', var(--font-inter), Arial, sans-serif;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif;
 }
