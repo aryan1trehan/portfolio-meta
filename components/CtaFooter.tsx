@@ -25,14 +25,14 @@ export default function CtaFooter() {
               Let&apos;s find out what&apos;s possible for your brand.
             </p>
             <a
-              href="mailto:hello@enhanccee.com"
+              href="mailto:info@enhanccee.com"
               className="inline-block font-georgia text-[#0A0A0A] bg-[#FF6A00] hover:bg-[#CC5500] hover:scale-[1.02] text-lg px-12 py-5 transition-all duration-200 mb-8"
             >
               Book a Free Audit
             </a>
             {/* Contact pills */}
             <div className="flex flex-wrap items-center justify-center gap-4">
-              {['hello@enhanccee.com', 'India · International', 'Meta Certified Partner'].map((pill) => (
+              {['info@enhanccee.com', 'India · International', 'Meta Certified Partner'].map((pill) => (
                 <span key={pill} className="font-inter text-xs text-[#CFC3B8]/40 border border-[#2A2A2A] px-5 py-2.5 tracking-wide">
                   {pill}
                 </span>
