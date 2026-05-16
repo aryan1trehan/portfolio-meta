@@ -30,10 +30,6 @@ export default function CtaFooter() {
             >
               Book a Free Audit
             </a>
-            <p className="font-inter text-[#CFC3B8]/20 text-xs tracking-widest uppercase mb-10">
-              No commitment. No jargon. Just clarity.
-            </p>
-
             {/* Contact pills */}
             <div className="flex flex-wrap items-center justify-center gap-4">
               {['hello@enhanccee.com', 'India · International', 'Meta Certified Partner'].map((pill) => (
