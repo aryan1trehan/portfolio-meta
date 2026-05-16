@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Enhanccee — We Engineer Revenue, Not Just Reach",
     description:
-      "Performance-first Meta Ads agency. ₹78Cr+ managed. 25+ brands. 7 continents.",
+      "Performance-first Meta Ads agency. ₹78Cr+ managed. 25+ brands.",
     type: "website",
   },
 };

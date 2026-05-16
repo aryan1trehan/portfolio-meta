@@ -38,7 +38,7 @@ export default function Home() {
             </h1>
             {/* Sub-headline */}
             <p className="font-inter text-lg text-[#CFC3B8]/60 mb-10">
-              ₹78Cr+ managed. 25+ brands. 7 continents.
+              ₹78Cr+ managed. 25+ brands.
             </p>
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             {/* Trust strip */}
             <div className="flex flex-wrap gap-3">
-              {['₹78Cr+ in managed spend', 'Up to 7x ROAS', '25+ brands · 7 continents', 'boAt · AstroTalk · Umaid Palace'].map((pill) => (
+              {['₹78Cr+ in managed spend', 'Up to 7x ROAS', '25+ brands', 'boAt · AstroTalk · Umaid Palace'].map((pill) => (
                 <span key={pill} className="font-inter text-xs text-[#CFC3B8]/50 border border-[#2A2A2A] px-4 py-2 tracking-wide">
                   {pill}
                 </span>
