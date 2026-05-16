@@ -15,8 +15,6 @@ import CtaFooter from "@/components/CtaFooter"
 export default function Home() {
   return (
     <main className="bg-[#0A0A0A] text-white">
-      <Navbar />
-
       {/* SECTION 01 — HERO */}
       <Card className="w-full min-h-screen bg-[#0A0A0A] relative overflow-hidden rounded-none border-none">
         <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" size={400} />
