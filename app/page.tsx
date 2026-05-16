@@ -97,7 +97,6 @@ export default function Home() {
             <div className="flex-shrink-0 flex flex-col items-start lg:items-end lg:border-l lg:border-[#FFD700]/20 lg:pl-[5vw]">
               <p className="font-georgia text-[clamp(4rem,10vw,9rem)] font-normal text-[#FFD700] leading-none">₹78Cr+</p>
               <p className="font-inter text-sm text-[#CFC3B8]/40 mt-2 tracking-wide">managed across 25+ brands</p>
-              <p className="font-inter text-xs text-[#CFC3B8]/40 mt-1 tracking-wider">10+ industries · 7 continents</p>
             </div>
           </div>
         </FlowSection>
