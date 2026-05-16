@@ -54,7 +54,7 @@ export default function CaseStudies() {
           className="group bg-[#0A0A0A] border-t-2 border-t-[#FFD700]/30 hover:border-t-[#FFD700] p-8 hover:shadow-lg hover:-translate-y-1 transition-all duration-200"
         >
           <h3 className="font-georgia text-[#FFD700] text-2xl font-normal mb-2">{c.brand}</h3>
-          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#0A0A0A] bg-[#FFFFFF] px-3 py-1 mb-4">
+          <span className="inline-block font-inter text-[10px] uppercase tracking-widest text-[#FFD700] mb-4">
             {c.tag}
           </span>
           <p className="font-georgia text-[#FFD700] text-3xl font-normal mb-4">{c.result}</p>
