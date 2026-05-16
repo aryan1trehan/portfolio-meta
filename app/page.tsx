@@ -34,7 +34,7 @@ export default function Home() {
             {/* H1 */}
             <h1 className="font-georgia text-[clamp(2.8rem,6vw,5rem)] font-normal leading-[1.1] text-[#CFC3B8] mb-6">
               We don&apos;t run ads.<br />
-              <span className="text-[#FF6A00]">We engineer growth.</span>
+              <span className="text-[#FF6A00]">We engineer <span className="font-brittany">growth.</span></span>
             </h1>
             {/* Sub-headline */}
             <p className="font-inter text-lg text-[#CFC3B8]/60 mb-10">
